@@ -1,21 +1,16 @@
 # Bash Basics
 
-База Bash для DevOps: переменные, условия, циклы.
+База Bash и DevOps: переменные, условия, циклы, OSI, RAID.
 
-## Структура
+## Содержание
 
-```
-bash-basics/
-├── 01-variables/      # Переменные и аргументы
-├── 02-conditions/     # if / else
-├── 03-loops/          # for / while
-└── README.md
-```
-
-В каждой папке:
-- `README.md` — теория
-- `cheatsheet.md` — шпаргалка (краткая выжимка)
-- `examples.sh` — рабочие примеры
+| Файл | Тема |
+|------|------|
+| [01-variables.md](01-variables.md) | Переменные, аргументы, exit code, логирование |
+| [02-conditions.md](02-conditions.md) | `if` / `else`, операторы сравнения |
+| [03-loops.md](03-loops.md) | `for` / `while` / `until` |
+| [OSI.md](OSI.md) | Модель OSI: 7 уровней, TCP/UDP, 3-way handshake |
+| [RAID.md](RAID.md) | RAID 0/1/5/6/10, parity, RAID ≠ бэкап |
 
 ---
 
@@ -39,13 +34,3 @@ bash script.sh        # запустить через bash
 ./script.sh           # запустить напрямую (нужно chmod +x)
 chmod +x script.sh    # сделать файл исполняемым
 ```
-
----
-
-## Темы
-
-| Раздел | Что внутри |
-|--------|-----------|
-| [01-variables](01-variables/) | Переменные, аргументы, exit codes |
-| [02-conditions](02-conditions/) | `if`, `else`, операторы сравнения |
-| [03-loops](03-loops/) | `for`, `while` |
